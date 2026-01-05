@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiktok"
+version = "1.0.0"
+description = "TikTok Video Fetch API using Flask"
+authors = [
+  { name="Mr Shohid", email="darknexusbd@gmail.com" }
+]
+readme = "README.md"
+license = { text="MIT" }
+requires-python = ">=3.8"
+dependencies = [
+  "flask",
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://t.me/darknexus_bd"
+
+[project.scripts]
+tiktok-fetch-api = "tiktok.server:run"
