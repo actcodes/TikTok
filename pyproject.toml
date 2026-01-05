@@ -21,4 +21,4 @@ dependencies = [
 Homepage = "https://t.me/darknexus_bd"
 
 [project.scripts]
-tiktok-fetch-api = "tiktok.server:run"
+tiktok = "src.server:run"
